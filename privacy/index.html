@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lockout — Privacy Policy</title>
+<style>
+  :root { --ink:#1a1a2e; --soft:#55566f; --line:#e4e4ef; --accent:#0f5c4c; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif;
+    color: var(--ink); line-height: 1.6; margin: 0;
+    padding: 32px 20px; max-width: 820px; margin-left: auto;
+    margin-right: auto; background: #fbfbfd;
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 4px; }
+  h2 { font-size: 1.3rem; margin-top: 40px; border-bottom: 1px solid var(--line);
+       padding-bottom: 6px; }
+  h3 { font-size: 1.05rem; margin-top: 26px; color: var(--accent); }
+  .meta { color: var(--soft); font-size: 0.92rem; margin-bottom: 28px; }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .note {
+    background: #eef4f1; border-left: 4px solid var(--accent);
+    padding: 12px 16px; border-radius: 6px; margin: 18px 0;
+    font-size: 0.95rem;
+  }
+  .placeholder { background: #fff3cd; padding: 1px 5px; border-radius: 3px; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line);
+           color: var(--soft); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for Lockout</h1>
+<p class="meta">
+  Last updated: August 6, 2026<br>
+  Applies to the Lockout family of apps: <strong>Lockout</strong> (child app),
+  <strong>Lockout Parent</strong>, and <strong>Lockout Teacher</strong>.
+</p>
+
+<div class="note">
+  <strong>Plain-language summary.</strong> Lockout helps parents and guardians
+  encourage study time on a child's device. Parents create the account and
+  control the settings; the child's app enforces them. We collect only what the
+  app needs to work. We do not show ads, we do not sell anyone's data, and we do
+  not use children's data to build advertising profiles. This page explains, in
+  full, what we collect, why, and the choices you have.
+</div>
+
+<p>
+  This Privacy Policy describes how
+  <span class="placeholder">Brighter Mind Apps, LLC</span> ("we," "us," or
+  "our") collects, uses, and protects information when you use the Lockout
+  apps and related services (together, the "Service").
+</p>
+<p>
+  By using the Service, you agree to the practices described here. If you do not
+  agree, please do not use the Service.
+</p>
+
+<h2>1. Who this Service is for, and who controls the data</h2>
+<p>
+  Lockout is a parental-control and study-enforcement tool. It is designed to be
+  <strong>set up and controlled by a parent, guardian, or (for classroom
+  features) a teacher</strong> — the "Account Holder" — and used on a device
+  belonging to a child under that person's care.
+</p>
+<p>
+  The Account Holder decides what information about a child is entered into the
+  Service, and directs how the Service is used on the child's device. We act as
+  a service provider carrying out those instructions. We do not knowingly
+  collect information directly from children except as configured and directed
+  by the Account Holder for the purpose of operating the Service on the child's
+  device.
+</p>
+
+<h2>2. Information we collect</h2>
+
+<h3>Account information (parents and teachers)</h3>
+<ul>
+  <li><strong>Email address and password.</strong> Used to create and secure an
+    account, through Google Firebase Authentication. Passwords are handled by
+    Firebase Authentication and are not stored by us in readable form.</li>
+  <li><strong>Account type and subscription status</strong> (for example,
+    whether an account is on the free or premium tier).</li>
+</ul>
+
+<h3>Child profile information (entered by the Account Holder)</h3>
+<ul>
+  <li><strong>A child's name or nickname</strong>, as chosen by the Account
+    Holder. This can be a first name or any label the parent prefers.</li>
+  <li><strong>A PIN</strong> used to protect the settings area on the child's
+    device. PINs are stored only in a hashed (irreversible) form and cannot be
+    read back by us.</li>
+  <li><strong>Study settings and progress</strong> — daily study goals, free-time
+    limits, study schedules, and how much study time has been completed.</li>
+  <li><strong>Emergency contact details</strong> that the Account Holder chooses
+    to add (for example, a name and phone number the child can call). These are
+    provided and controlled by the Account Holder.</li>
+</ul>
+
+<h3>Device and enforcement information</h3>
+<ul>
+  <li><strong>Device pairing identifiers.</strong> When a child's device is
+    paired to an account, the Service records an anonymous device identifier so
+    the parent's app and the child's app can stay in sync. This is not tied to
+    your name or email beyond the pairing relationship.</li>
+  <li><strong>Enforcement status.</strong> The child's device reports whether the
+    study lock is currently active and healthy (for example, whether the
+    required permissions are enabled), so the parent's app can show it and warn
+    if enforcement has stopped working.</li>
+  <li><strong>The name of the app currently in the foreground on the child's
+    device</strong>, used only in the moment to enforce a study lock — see the
+    Accessibility Service section below.</li>
+</ul>
+
+<h3>Accessibility Service — what it does and does not do</h3>
+<p>
+  On Android, the child app uses an <strong>Accessibility Service</strong> to
+  enforce study lockouts. This is a sensitive permission, so we want to be
+  precise about it.
+</p>
+<ul>
+  <li><strong>What it does:</strong> while a study lockout is active, the service
+    detects <em>which application is currently in the foreground</em>. If the
+    child leaves the Lockout app for a non-permitted app during study time, the
+    service returns them to Lockout.</li>
+  <li><strong>What it does not do:</strong> the service is configured so that it
+    <strong>cannot read the contents of the screen</strong> — not text, form
+    fields, messages, passwords, or anything inside another app. It sees only
+    the identity (package name) of the app in front. We do not collect, store,
+    or transmit screen contents.</li>
+  <li>The Account Holder enables this permission knowingly during setup, and can
+    disable it at any time in the device's system settings.</li>
+</ul>
+
+<h3>Classroom information (Lockout Teacher)</h3>
+<ul>
+  <li>Teachers may create study assignments and share them via a code. When a
+    parent imports an assignment, a copy is stored under that parent's account.
+    Assignments contain the study content the teacher creates; they are not
+    intended to contain personal information about specific children.</li>
+</ul>
+
+<h3>Payment information</h3>
+<p>
+  Premium features are offered through a subscription. Payments are processed by
+  <strong>Google Play Billing</strong>, and subscription status is managed with
+  the help of <strong>RevenueCat</strong>, a subscription-management provider.
+</p>
+<ul>
+  <li>We do <strong>not</strong> collect or store your credit-card number, bank
+    details, or full payment credentials. Those are handled directly by Google
+    Play.</li>
+  <li>We receive confirmation of your subscription status (for example, active,
+    renewed, cancelled, or expired) so we can enable or disable premium
+    features. This confirmation is delivered through RevenueCat and a secure,
+    validated server process; the "premium" status on your account can only be
+    set by that validated process, never by the app on your device.</li>
+</ul>
+
+<h2>3. How we use information</h2>
+<ul>
+  <li>To create and secure accounts and pair devices.</li>
+  <li>To operate the study-enforcement features the Account Holder configures.</li>
+  <li>To sync settings and status between the parent's app and the child's
+    device.</li>
+  <li>To enable and manage premium subscriptions.</li>
+  <li>To generate age-appropriate study content (see below).</li>
+  <li>To maintain the security and reliability of the Service, and to comply with
+    legal obligations.</li>
+</ul>
+
+<h3>AI-generated study content</h3>
+<p>
+  Some study passages can be generated with the help of an AI service (the
+  Anthropic Claude API). The prompts we send to generate this content describe
+  only a <strong>topic and an approximate grade or difficulty level</strong>
+  (for example, "a short reading passage about volcanoes at a third-grade
+  level"). We do <strong>not</strong> include a child's name, PIN, contacts, or
+  any other personal information in these prompts. Generated content is reviewed
+  before it is made available.
+</p>
+
+<h2>4. What we do NOT do</h2>
+<ul>
+  <li>We do not show third-party advertisements in the Service.</li>
+  <li>We do not sell, rent, or trade personal information to anyone.</li>
+  <li>We do not use children's information to build advertising or marketing
+    profiles.</li>
+  <li>We do not use the Accessibility Service to read or collect the contents of
+    other apps or of the screen.</li>
+</ul>
+
+<h2>5. How information is shared</h2>
+<p>
+  We share information only with the service providers that make the app work,
+  and only as needed:
+</p>
+<ul>
+  <li><strong>Google Firebase</strong> (Authentication, Firestore database,
+    Cloud Functions) — stores account, child-profile, settings, and status data,
+    and runs our secure server logic. See Google's Privacy Policy.</li>
+  <li><strong>Google Play Billing</strong> — processes subscription payments.</li>
+  <li><strong>RevenueCat</strong> — manages and validates subscription status.</li>
+  <li><strong>Anthropic</strong> (Claude API) — receives topic-and-grade prompts
+    to generate study content, with no personal information included.</li>
+</ul>
+<p>
+  We may also disclose information if required by law, to protect the rights and
+  safety of users, or in connection with a business transfer (for example, if
+  the Service is acquired), in which case we will require the recipient to honor
+  this Policy.
+</p>
+
+<h2>6. Children's privacy</h2>
+<p>
+  Lockout is a tool for parents and guardians to manage a child's device.
+  Because the Service is used on children's devices, we take particular care:
+</p>
+<ul>
+  <li>Accounts are created and controlled by an adult Account Holder.</li>
+  <li>Information about a child is entered and controlled by the Account
+    Holder.</li>
+  <li>We collect from the child's device only what is needed to operate the
+    features the Account Holder has configured.</li>
+  <li>We do not knowingly use children's information for advertising, profiling,
+    or any purpose beyond operating the Service.</li>
+</ul>
+<p>
+  If you believe a child's information has been provided to us in a way that a
+  parent or guardian did not intend, please contact us and we will address it
+  promptly, including deleting the information where appropriate.
+</p>
+
+<h2>7. Data retention and deletion</h2>
+<ul>
+  <li>Account and profile information is kept while the account is active.</li>
+  <li>An Account Holder can delete a child's profile, remove emergency contacts,
+    unpair a device, or delete their account, which removes the associated data
+    from active use.</li>
+  <li>To request deletion of your account and associated data, contact us at the
+    email below and we will process the request.</li>
+</ul>
+
+<h2>8. Security</h2>
+<p>
+  We use industry-standard measures to protect information, including encrypted
+  connections, hashed PINs and passwords, and server-side rules that restrict
+  who can read or change data. For example, sensitive status such as a premium
+  subscription flag can only be set by a validated server process, not by any
+  app on a device. No system is perfectly secure, but we work to protect your
+  information and to correct issues promptly if they arise.
+</p>
+
+<h2>9. Your rights and choices</h2>
+<p>
+  Depending on where you live, you may have rights to access, correct, delete,
+  or restrict the use of your personal information, and to withdraw consent.
+  Account Holders can review and change most information directly in the app. To
+  make a request that you cannot complete in the app, contact us at the email
+  below. We honor rights provided under applicable laws, including, where they
+  apply, the EU/UK GDPR and U.S. state privacy laws.
+</p>
+
+<h2>10. International users</h2>
+<p>
+  The Service is operated using Google Cloud/Firebase infrastructure and may
+  process and store information in countries other than your own, including the
+  United States. Where required, we rely on appropriate safeguards for such
+  transfers. By using the Service, you understand that your information may be
+  processed in these locations.
+</p>
+
+<h2>11. Changes to this Policy</h2>
+<p>
+  We may update this Policy from time to time. When we make material changes, we
+  will update the "Last updated" date above and, where appropriate, provide
+  additional notice. Continued use of the Service after an update means you
+  accept the revised Policy.
+</p>
+
+<h2>12. Contact us</h2>
+<p>
+  If you have questions, concerns, or requests regarding this Policy or your
+  information, contact us at:
+</p>
+<p>
+  <strong>Brighter Mind Apps, LLC</strong><br>
+  Email: <a href="mailto:brightermindapps@gmail.com">brightermindapps@gmail.com</a><br>
+  <span class="placeholder">[Mailing address to be added once available]</span>
+</p>
+
+<footer>
+  This document is provided for transparency about our data practices. It is not
+  legal advice.
+</footer>
+
+</body>
+</html>
