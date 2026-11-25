@@ -2,50 +2,153 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Brighter Mind Apps</title>
-<style>
-  :root { --ink:#1a1a2e; --soft:#55566f; --accent:#0f5c4c; --wash:#e6f0ec; }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Helvetica, Arial, sans-serif;
-    color: var(--ink); background: #fbfbfd; min-height: 100vh;
-    display: flex; align-items: center; justify-content: center;
-    padding: 24px; line-height: 1.6;
-  }
-  .card { max-width: 560px; text-align: center; }
-  .badge {
-    display: inline-block; background: var(--wash); color: var(--accent);
-    font-weight: 600; font-size: 0.8rem; letter-spacing: 0.08em;
-    text-transform: uppercase; padding: 6px 14px; border-radius: 999px;
-    margin-bottom: 24px;
-  }
-  h1 { font-size: 2.4rem; margin-bottom: 12px; }
-  p { color: var(--soft); font-size: 1.1rem; margin-bottom: 8px; }
-  .links { margin-top: 32px; }
-  a {
-    color: var(--accent); text-decoration: none; font-weight: 600;
-    border-bottom: 1px solid transparent; transition: border-color .15s;
-  }
-  a:hover { border-color: var(--accent); }
-  footer { margin-top: 40px; font-size: 0.85rem; color: var(--soft); }
-</style>
+<meta name="description" content="Lockout and Lockout Parent: kids earn screen time by finishing reading and math goals their parent sets.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
-    <span class="badge">Coming soon</span>
-    <h1>Brighter Mind Apps</h1>
-    <p>We build tools that help families and classrooms make time for
-       learning.</p>
-    <p>Our first app, Lockout, is on the way.</p>
-    <div class="links">
-      <a href="/privacy/">Privacy Policy</a>
-    </div>
-    <footer>
-      Contact: <a href="mailto:brightermindapps@gmail.com"
-        >brightermindapps@gmail.com</a>
-    </footer>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="./"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--accent)"/><path d="M7 22a9 9 0 0 1 18 0" fill="none" stroke="var(--sun)" stroke-width="3" stroke-linecap="round"/><path d="M16 7v3M8.5 10.5l2 2M23.5 10.5l-2 2" stroke="var(--accent-ink)" stroke-width="2.4" stroke-linecap="round"/><path d="M5 22h22" stroke="var(--accent-ink)" stroke-width="2.4" stroke-linecap="round"/></svg>Brighter Mind Apps</a>
+    <nav class="nav" aria-label="Main">
+      <a href="./" aria-current="page">Home</a>
+      <a href="support/">Support</a>
+      <a href="privacy/">Privacy</a>
+      <a href="terms/">Terms</a>
+    </nav>
   </div>
+</header>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Screen time your kids earn by learning first.</h1>
+      <p class="lead">Lockout turns study into the key to free time. You set a daily reading and math goal from your phone. Your child finishes it on theirs, then their free time unlocks.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.brightermindapps.lockoutparent">Get Lockout Parent on Google Play</a>
+        <a class="btn btn-ghost" href="#how-it-works">See how it works</a>
+      </div>
+    </div>
+    <div>
+      <div class="phone" role="img" aria-label="Illustration of the Lockout app on a child's phone: today's study goal is two of three tasks done, with 45 minutes of free time waiting to unlock.">
+        <span class="eyebrow">Today's study goal</span>
+        <span class="goal">2 of 3 done</span>
+        <div class="meter"><span></span></div>
+        <div class="task"><span class="tick done">&#10003;</span>Reading: The Water Cycle</div>
+        <div class="task"><span class="tick done">&#10003;</span>Math: 10 division problems</div>
+        <div class="task"><span class="tick open"></span>Reading: 15 minutes</div>
+        <div class="unlock"><strong>45 min</strong>of free time unlocks when you finish</div>
+      </div>
+      <p class="figure-note">Illustration only</p>
+    </div>
+  </div>
+</section>
+
+<section class="band alt" id="how-it-works">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="intro">Two apps work together. You stay in control from your phone, and your child's phone does the enforcing, so you don't have to be the bad guy.</p>
+    <ol class="steps">
+      <li>
+        <h3>Set the goal</h3>
+        <p>In Lockout Parent, add your child and choose a daily study goal, the subjects, a weekly schedule and how much free time they earn.</p>
+      </li>
+      <li>
+        <h3>They study</h3>
+        <p>Lockout on your child's phone serves reading passages with questions and math practice. Your PIN keeps the settings locked.</p>
+      </li>
+      <li>
+        <h3>Free time unlocks</h3>
+        <p>When the goal is done, the free time you set is theirs. They earned it, and they know it.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="band" id="apps">
+  <div class="wrap">
+    <h2>Our apps</h2>
+    <p class="intro">Install Lockout Parent on your phone and Lockout on your child's Android phone or tablet. Pair them with a simple code.</p>
+    <div class="apps">
+      <article class="app">
+        <span class="where">For the parent's phone</span>
+        <h3>Lockout Parent</h3>
+        <p>The control center for the Lockout study system.</p>
+        <ul>
+          <li>Pair your children's devices with a code</li>
+          <li>Set daily goals, reading minimums and a weekly schedule</li>
+          <li>Write your own homework or scan a worksheet</li>
+          <li>Import assignments from your child's teacher</li>
+          <li>Add emergency contacts your child can always reach</li>
+        </ul>
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.brightermindapps.lockoutparent">Get it on Google Play</a>
+      </article>
+      <article class="app">
+        <span class="where">For the child's phone</span>
+        <h3>Lockout</h3>
+        <p>The study companion that helps kids focus and earn their free time.</p>
+        <ul>
+          <li>Reading comprehension passages with questions</li>
+          <li>Math practice: addition, subtraction, multiplication and division</li>
+          <li>A clear, friendly design made for kids</li>
+          <li>Optional study-time lock, turned on by the parent</li>
+          <li>Settings protected by the parent's PIN</li>
+        </ul>
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.brightermindapps.lockout">Get it on Google Play</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band alt" id="plans">
+  <div class="wrap">
+    <h2>Free to start</h2>
+    <p class="intro">Lockout is free to use. Premium is an optional subscription for parents who want full control.</p>
+    <div class="plans">
+      <div class="plan">
+        <h3>Free</h3>
+        <ul>
+          <li>Reading and math practice</li>
+          <li>Free time earned by finishing study</li>
+          <li>Your child picks which subject to study</li>
+        </ul>
+      </div>
+      <div class="plan premium">
+        <h3>Premium</h3>
+        <ul>
+          <li>Choose or rotate subjects for your child</li>
+          <li>Set daily goals and reading minimums</li>
+          <li>Write or scan homework, import teacher assignments</li>
+          <li>Up to 5 children and 15 devices</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note-strip">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+      <p><strong>iPhone and iPad are on the way.</strong> Lockout is on Android today, and the iOS versions are in the works.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="privacy-promise">
+  <div class="wrap">
+    <h2>Built for families, private by design</h2>
+    <p class="intro">No ads. We never sell data or share it with advertisers. Worksheet photos are read on your own phone and are never uploaded. The optional study-time lock only checks which app is open; it can't read the screen. <a href="privacy/">Read our privacy policy</a>.</p>
+  </div>
+</section>
+
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <span>&copy; 2026 Brighter Mind Apps LLC</span>
+    <nav aria-label="Footer">
+      <a href="support/">Support</a>
+      <a href="privacy/">Privacy Policy</a>
+      <a href="terms/">Terms of Use</a>
+      <a href="mailto:hello@brightermindapps.com">hello@brightermindapps.com</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
